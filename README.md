@@ -23,14 +23,14 @@ We are tasked with leveraging OpenAI and Retrieval-Augmented Generation (RAG) to
 3.   Using this information and guesstimated weights, calculate the risk score and assign a risk class of premium, standard, or sub-standard to the individual
 4.   With the individual's age, sex and risk class, leverage Pandas agents to lookup pre-loaded and processed data to answer the following:
 
-*   **Question 1**: Is the applicant likely to pay an amount ≥ $250,000?
+*   **Question 1**: Is the lifetime premium + investment outcome likely to yield an amount ≥ $250,000?
 
 >*   **If no:** The company should reject the applicant.
 
 >*   **If yes:** The company should find the greatest amount of insurance for which the applicant would be eligible.
 
 *   **Question 2**:
-For eligible applicants, what is the probability that they pay an amount ≥ each eligible tier of insurance?
+For eligible applicants, what is the return the company will see at the highest eligible insurance tier?
 
 # Outcome:
 Provide the user with a summary of eligibility and final recommendations.
