@@ -1,4 +1,4 @@
-# Summary:
+#**Summary:**
 We have been given a PDF with information about an insurance applicant.
 We are tasked with leveraging OpenAI and Retrieval-Augmented Generation (RAG) to review the application and give an informed recommendation as to whether or not a company should provide insurance to this person.
 
@@ -34,7 +34,6 @@ For eligible applicants, what is the return the company will see at the highest 
 
 # Outcome:
 Provide the user with a summary of eligibility and final recommendations.
-
 
 
 #Assets and Artifacts:
